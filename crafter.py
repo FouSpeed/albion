@@ -52,10 +52,12 @@ else:
 
 #calcul du nombre d'objet que l'on peut créer
 
-minimumList = []
+minimumList = 0
 for num in range(len(materialList)):
     numberDivi = materialList[num]["bought"] / materialList[num]["count"]
-    minimumList += [numberDivi]
+    if numberDivi < minimumList or minimumList == 0:
+        minimumList = numberDivi
+    
 print(minimumList)
 
 
