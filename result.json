@@ -1,0 +1,413 @@
+{
+        "itemType":"equipment",
+        "uniqueName":"T6_SHOES_CLOTH_SET1",
+        "uiSprite":"SHOES_CLOTH_LEVEL1",
+        "uiSpriteOverlay1":null,
+        "uiSpriteOverlay2":null,
+        "uiSpriteOverlay3":null,
+        "uiAtlas":null,
+        "showinmarketplace":true,
+        "level":1,"tier":6,
+        "enchantmentLevel":0,
+        "categoryId":"cloth_shoes",
+        "categoryName":"",
+        "revision":180745,
+        "enchantments":{
+            "enchantments":[
+                {
+                    "enchantmentLevel":1,
+                    "itemPower":1000,
+                    "durability":30375,
+                    "craftingRequirements":{
+                        "time":0.833,
+                        "silver":0,
+                        "craftingFocus":2268,
+                        "craftResourceList":[
+                            {
+                                "uniqueName":"T6_CLOTH_LEVEL1",
+                                "count":8
+                            }
+                        ]
+                    }
+                },
+                {
+                    "enchantmentLevel":2,
+                    "itemPower":1100,
+                    "durability":45563,
+                    "craftingRequirements":{
+                        "time":1.25,
+                        "silver":0,
+                        "craftingFocus":3894,
+                        "craftResourceList":[
+                            {
+                                "uniqueName":"T6_CLOTH_LEVEL2",
+                                "count":8
+                            }
+                        ]
+                    }
+                },
+                {
+                        "enchantmentLevel":3,
+                        "itemPower":1200,
+                        "durability":68344,
+                        "craftingRequirements":{
+                            "time":1.5,
+                            "silver":0,
+                            "craftingFocus":6747,
+                            "craftResourceList":[
+                                {
+                                    "uniqueName":"T6_CLOTH_LEVEL3",
+                                    "count":8
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "activeSlots":{
+                "1":[
+                    {
+                        "spellType":"active",
+                        "uniqueName":"RUN",
+                        "uiAtlas":null,
+                        "uiSprite":null,
+                        "revision":180330,
+                        "localizedNames":{
+                            "EN-US":"Run",
+                            "DE-DE":"Laufen",
+                            "KO-KR":"달리기",
+                            "RU-RU":"Бег",
+                            "PL-PL":"Bieg",
+                            "PT-BR":"Corrida",
+                            "FR-FR":"Course",
+                            "ES-ES":"Correr",
+                            "ZH-CN":"奔跑"
+                        },
+                        "localizedDescriptions":{
+                            "EN-US":"Increases your move speed by (A) for (B). Good for travelling and gathering.\n\nEnergy Cost: (C) \nCast time: instant\nRange: self\nCooldown: (D)",
+                            "DE-DE":"Erhöht deine Geschwindigkeit für (A) um (B). Gut zum Reisen und Sammeln.\n\nEnergiekosten: (C) \nZauberzeit: sofortig\nReichweite: selbst\nAbklingzeit: (D)",
+                            "KO-KR":"(A) 동안 이동 속도가 (B) 만큼 증가합니다. 이동 및 채집에 적합합니다.\n\n에너지 소비: (C) \n시전 시간: 즉시\n범위: 자신\n대기 시간: (D)",
+                            "RU-RU":"Повышает скорость перемещения на (A) в течение (B). Полезный навык для путешественников и собирателей.\nРасход энергии: (C) \nСотворение: мгновенное\nРасстояние: на себя\nВосстановление: (D)",
+                            "PL-PL":"Zwiększa szybkość ruchu o (A) przez (B). Przydaje się do podróżowania i w zbieractwie.\nKoszt energii: (C)\nCzas czarowania: natychmiast\nZasięg: ja\nCzas odnowienia: (D)",
+                            "PT-BR":"Aumenta em (A) a velocidade de movimento por (B). Bom para viajar e coletar.\nCusto de Energia: (C) \nTempo de lançamento: instantâneo\nAlcance: lançador\nRecarga: (D)",
+                            "FR-FR":"Augmente votre vitesse de déplacement de (A) pendant (B). Idéal pour les voyages et la récolte.\nCoût en énergie : (C) \nIncantation : instantanée\nPortée : soi-même\nTemps de recharge : (D)",
+                            "ES-ES":"Tu velocidad de movimiento aumenta un (A) durante (B). Útil para viajar y recolectar.\nCoste de energía: (C)\nTiempo de lanzamiento: inmediato\nAlcance: sobre ti\nTiempo de espera: (D)",
+                            "ZH-CN":"使你的移动速度提高(A)，效果持续(B)。适用于旅行和采 集。\n\n耗费能量：(C) \n施放时间：瞬发\n距离：自身\n冷却时间：(D)"
+                        },
+                        "target":"self",
+                        "castingTime":0.0,
+                        "hitDelay":0.0,
+                        "standTime":0.0,
+                        "disruptionFactor":0.0,
+                        "recastDelay":30.0,
+                        "energyUsage":0.0,
+                        "castRange":0.0,
+                        "category":"movementbuff",
+                        "uiType":"movement",
+                        "maxCharges":null,
+                        "buffOverTime":[
+                            {
+                                "target":"self",
+                                "type":"movespeedbonus",
+                                "time":7.0,
+                                "value":0.6,
+                                "effectAreaRadius":null
+                            }
+                        ],
+                        "directAttributeChange":null,
+                        "root":null,
+                        "stun":null,
+                        "attributeChangeOverTime":null,
+                        "silence":null,
+                        "damageShield":null,
+                        "channeling":null,
+                        "knockback":null,
+                        "spellEffectArea":null,
+                        "invisibility":null
+                    },
+                    {
+                        "spellType":"active",
+                        "uniqueName":"SPRINTEOT",
+                        "uiAtlas":null,
+                        "uiSprite":"SPRINT_ENERGY",
+                        "revision":180330,
+                        "localizedNames":{
+                            "EN-US":"Energetic Sprint",
+                            "DE-DE":"Energiegeladener Sprint",
+                            "KO-KR":"활기찬 전력 질주",
+                            "RU-RU":"Энергичная пробежка",
+                            "PL-PL":"Energiczny Sprint",
+                            "PT-BR":"Disparada Energética",
+                            "FR-FR":"Sprint énergétique",
+                            "ES-ES":"Sprint energético",
+                            "ZH-CN":"精力充沛冲刺"
+                        },
+                        "localizedDescriptions":{
+                            "EN-US":"Increases your move speed by (A) for (B), and regenerates (C) energy every second for (D) seconds.\n\nEnergy Cost: (E)\nCooldown: (F)",
+                            "DE-DE":"Erhöht deine Geschwindigkeit (A) lang um (B) und regeneriert (C) Sekunden lang pro Sekunde (D) Energie.\nKosten: (E) Abklingzeit: (F)",
+                            "KO-KR":"(A) 동안 이동 속도가 (B) 만큼 증가하고 (C)초 동안 매초 (D) 만큼 에너지를 회복합니다.\n\n에너지 소비: (E)\n대기 시간: (F)",
+                            "RU-RU":"Ускоряет ваше перемещение на (A) в течение (B). Вы восстанавливаете (C) ед. энергии в секунду в течение (D) сек.\nРасход энергии: (E) Восстановление: (F)",
+                            "PL-PL":"Zwiększa szybkość ruchu o (A) przez (B) i przywraca (C) pkt. energii co sekundę przez (D) s.\nKoszt: (E) Czas odnowienia: (F)",
+                            "PT-BR":"Aumenta em (A) sua velocidade de movimento por (B) e regenera (C) de energia a cada segundo durante (D) segundos.\nCusto: (E) Recarga: (F)",
+                            "FR-FR":"Augmente votre vitesse de déplacement de (A) pendant (B) et vous rend (C) points d'énergie par seconde pendant (D) secondes.\nCoût : (E) Temps de recharge : (F)",
+                            "ES-ES":"Aumenta tu velocidad de movimiento un (A) durante (B). Además, recuperas (C) de energía cada segundo durante (D) segundos.\nCoste: (E) Tiempo de espera: (F)",
+                            "ZH-CN":"使你的移动速度提高(A)，效果持续(B)，每秒恢复(C)能量，效果持续(D)秒。\n\n耗费能量：(E)\n冷却时间：(F)"
+                        },
+                        "target":"self",
+                        "castingTime":0.0,
+                        "hitDelay":0.0,
+                        "standTime":0.0,
+                        "disruptionFactor":0.0,
+                        "recastDelay":30.0,
+                        "energyUsage":0.0,
+                        "castRange":0.0,
+                        "category":"movementbuff",
+                        "uiType":"movement",
+                        "maxCharges":null,
+                        "buffOverTime":[
+                            {
+                                "target":"self",
+                                "type":"movespeedbonus",
+                                "time":3.0,
+                                "value":1.0,
+                                "effectAreaRadius":null
+                            }
+                        ],
+                        "directAttributeChange":null,
+                        "root":null,
+                        "stun":null,
+                        "attributeChangeOverTime":[
+                            {
+                                "attribute":"energy",
+                                "interval":1.0,
+                                "initialInterval":0.0,
+                                "change":3.92,
+                                "count":3,
+                                "effectType":null,
+                                "effectAreaRadius":null
+                            }
+                        ],
+                        "silence":null,
+                        "damageShield":null,
+                        "channeling":null,
+                        "knockback":null,
+                        "spellEffectArea":null,
+                        "invisibility":null
+                    },
+                    {
+                        "spellType":"active",
+                        "uniqueName":"CHANNELED_RUN",
+                        "uiAtlas":null,"uiSprite":"POUNCE",
+                        "revision":180330,
+                        "localizedNames":{
+                            "EN-US":"Focused Run",
+                            "DE-DE":"Fokussierter Lauf",
+                            "KO-KR":"집중 달리기",
+                            "RU-RU":"Бег с концентрацией",
+                            "PL-PL":"Skoncentrowany Bieg",
+                            "PT-BR":"Corrida Concentrada",
+                            "FR-FR":"Course intense",
+                            "ES-ES":"Carrera centrada",
+                            "ZH-CN":"专注奔跑"
+                        },
+                        "localizedDescriptions":{
+                            "EN-US":"Increases your move speed by (A), and makes you immune to movement-impairing effects for up to 5s. During the focus you can't attack or cast spells, but you regain (B) energy every 0.5s.\n\nEnergy Cost: (C) \nCast time: channeled\nRange: self\nCooldown: (D)",
+                            "DE-DE":"Erhöht für bis zu 5s deine Bewegungsgeschwindigkeit um (A) und macht dich auch immun gegen bewegungseinschränkende Effekte. Während der Fokussierung kannst du nicht angreifen oder Zauber wirken, aber du erhältst alle 0,5s (B) Energie.\n\nEnergiekosten: (C) \nZauberzeit: Kanalisiert\nReichweite: Selbst\nAbklingzeit: (D)",
+                            "KO-KR":"이동 속도를 (A) 만큼 증가시키고 5초 동안 동작을 방해하는 모든 효과에 면역됩니다. 집중하는 동안 공격하거나 주문을 시전할 수 없지만 0.5초마다 에너지를 (B) 만큼 회복합니다.\n\n에너지 소비: (C) \n시전 시간: 시전 후 지속\n범위: 자신\n대기 시간: (D)",
+                            "RU-RU":"Увеличивает вашу скорость передвижения на (A) и делает вас невосприимчивым к эффектам, препятствующим передвижению, на 5с. Во время действия заклинания вы не можете атаковать или произносить заклинания, но восстанавливаете (B) ед. энергии какждые 0.5с.\n\nРасход энергии: (C) \nСотворение: поддерживаемое\nРасстояние: на себя\nВосстановление: (D)",
+                            "PL-PL":"Zwiększa twoją szybkość ruchu o (A) i czyni cię odpornym na efekty utrudniające poruszanie się do 5s. Podczas skupienia nie możesz atakować, ani rzucać zaklęć, lecz odzyskujesz (B) energii co 0.5s.\n\nKoszt energii: (C)\nCzas czarowania: kanałowanie\nZasięg: ja\nCzas odnowienia: (D)",
+                            "PT-BR":"Aumenta sua velocidade de movimento em (A), e te faz imune a efeitos de redução de movimento por até 5s. Durante o foco, você não pode atacar ou lançar habilidades, mas você regenera (B) de energia a cada 0,5s.\n\nCusto de Energia: (C) \nTempo de lançamento: canalizado\nAlcance: lançador\nRecarga: (D)",
+                            "FR-FR":"Augmente votre vitesse de déplacement de (A) et vous rend insensible aux effets impactant le mouvement jusqu'à 5s. Tant que vous êtes concentré, vous ne pouvez pas attaquer ni lancer de sorts, mais vous récupérez (B) d'énergie toutes les 0,5s. \n\nCoût en énergie : (C)\nIncantation : canalisée\nPortée : soi-même\nTemps de recharge : (D)",
+                            "ES-ES":"Aumenta tu velocidad de movimiento en (A), y te hace inmune a efectos de controls de multitud por 5s. Durante el enfoque, no puedes atacar o lanzar habilidades, pero puedes regenerar (B) de energía cada 0,5s.\n\nCosto de energía: (C) \nTiempo de lanzamiento: canalizado\nAlcance: lanzador\nTiempo de espera: (D)",
+                            "ZH-CN":"你的移动速度提高(A)，并免疫移动限制效果，效果最多持续5秒。专注期间你无法攻击或施放技能，但每0.5秒恢复(B)能量。\n\n耗费能量：(C) \n施放时间：引导\n距离：自身\n冷却时间：(D)"
+                        },
+                        "target":"self",
+                        "castingTime":0.0,
+                        "hitDelay":0.0,
+                        "standTime":0.0,
+                        "disruptionFactor":1.0,
+                        "recastDelay":30.0,
+                        "energyUsage":0.0,
+                        "castRange":0.0,
+                        "category":"instant",
+                        "uiType":"movement",
+                        "maxCharges":null,
+                        "buffOverTime":null,
+                        "directAttributeChange":null,
+                        "root":null,
+                        "stun":null,
+                        "attributeChangeOverTime":null,
+                        "silence":null,
+                        "damageShield":null,
+                        "channeling":{
+                            "channelingAnimation":"channel_block",
+                            "initialEffectInterval":0.0,
+                            "effectCount":10,
+                            "effectInterval":0.5,
+                            "energyUsage":0.0,
+                            "disruptionFactor":0.0,
+                            "directAttributeChange":{
+                                "target":"self",
+                                "attribute":"energy",
+                                "change":2.63,
+                                "effectType":null,
+                                "effectAreaRadius":null
+                            },
+                            "buffOverTime":{
+                                "target":"self",
+                                "type":"movespeedbonus",
+                                "time":0.6,
+                                "value":0.7,
+                                "effectAreaRadius":null
+                            },
+                            "damageShield":null
+                        },
+                        "knockback":null,
+                        "spellEffectArea":null,
+                        "invisibility":null
+                    }
+                ]
+            },
+            "passiveSlots":{
+                "1":[
+                    {
+                        "spellType":"passive",
+                        "uniqueName":"PASSIVE_MAXLOAD_SHOES",
+                        "uiAtlas":null,
+                        "uiSprite":"PASSIVE_MAXLOAD",
+                        "revision":180330,
+                        "localizedNames":{
+                            "EN-US":"Courier",
+                            "DE-DE":"Bote",
+                            "KO-KR":"운송",
+                            "RU-RU":"Грузоподъемность",
+                            "PL-PL":"Posłaniec",
+                            "PT-BR":"Mensageiro",
+                            "FR-FR":"Messager",
+                            "ES-ES":"Mensajero",
+                            "ZH-CN":"速递"
+                        },
+                        "localizedDescriptions":{
+                            "EN-US":"Increases your maximum carry load by (A) kg.",
+                            "DE-DE":"Erhöht deine maximale Traglast um (A) kg.",
+                            "KO-KR":"최대 소지 무게가 (A) kg으로 증가합니다.",
+                            "RU-RU":"Ваша максимальная грузоподъемность на (A) кг выше.",
+                            "PL-PL":"Zwiększa maksymalny udźwig o (A) kg.",
+                            "PT-BR":"Aumenta em (A) kg o limite de peso carregado.",
+                            "FR-FR":"Augmente votre capacité de charge maximale de (A) kg.",
+                            "ES-ES":"Aumenta el peso máximo que puedes cargar en (A) kg.",
+                            "ZH-CN":"使你的最大负重提高(A)公斤。"
+                        },
+                        "buff":[
+                            {
+                                "type":"maxload",
+                                "value":0.3
+                            }
+                        ],
+                        "reflectDamage":null
+                    },
+                    {
+                        "spellType":"passive",
+                        "uniqueName":"PASSIVE_INCREASED_DAMAGE",
+                        "uiAtlas":null,
+                        "uiSprite":"PASSIVE_DAZE",
+                        "revision":180330,
+                        "localizedNames":{
+                            "EN-US":"Aggression",
+                            "DE-DE":"Aggression",
+                            "KO-KR":"공격성",
+                            "RU-RU":"Агрессия",
+                            "PL-PL":"Agresja",
+                            "PT-BR":"Agressão",
+                            "FR-FR":"Agression",
+                            "ES-ES":"Agresión",
+                            "ZH-CN":"侵略"
+                        },
+                        "localizedDescriptions":{
+                            "EN-US":"Increases your damage and heal power by (A).",
+                            "DE-DE":"Erhöht deinen Schaden und Heilung um (A).",
+                            "KO-KR":"대미지와 치유량이 (A) 만큼 증가합니다.",
+                            "RU-RU":"Увеличивает ваш урон и силу исцеления на (A).",
+                            "PL-PL":"Zwiększa zadawane obrażeniaración en (A).",
+                            "ZH-CN":"伤害与治疗强度提高(A)。"
+                        },
+                        "buff":[
+                            {
+                                "type":"physicalattackdamagebonus",
+                                "value":0.035},{
+                                    "type":"physicalspelldamagebonus",
+                                    "value":0.035
+                                },
+                                {
+                                    "type":"magicattackdamagebonus",
+                                    "value":0.035
+                                },
+                                {
+                                    "type":"magicspelldamagebonus",
+                                    "value":0.035
+                                },
+                                {
+                                    "type":"healbonus",
+                                    "value":0.035
+                                }
+                            ],
+                            "reflectDamage":null
+                        },
+                        {
+                            "spellType":"passive",
+                            "uniqueName":"PASSIVE_CASTSPEED",
+                            "uiAtlas":null,
+                            "uiSprite":"PASSIVE_SHARPSHOOTER",
+                            "revision":180330,
+                            "localizedNames":{
+                                "EN-US":"Concentration",
+                                "DE-DE":"Konzentration",
+                                "KO-KR":"집중",
+                                "RU-RU":"Концентрация",
+                                "PL-PL":"Koncentracja",
+                                "PT-BR":"Concentração",
+                                "FR-FR":"Concentration",
+                                "ES-ES":"Concentración",
+                                "ZH-CN":"专心"
+                            },
+                            "localizedDescriptions":{
+                                "EN-US":"Cast speed is increased by (A).",
+                                "DE-DE":"Zaubergeschwindigkeit ist um (A) erhöht.",
+                                "KO-KR":"시전 속도가 (A) 만큼 증가합니다.",
+                                "RU-RU":"Скорость чтения заклинаний на (A) выше.",
+                                "PL-PL":"Szybkość czarowania zwiększona o (A).",
+                                "PT-BR":"Aumenta em (A) a velocidade de lançamento.",
+                                "FR-FR":"Vitesse d'incantation augmentée de (A).",
+                                "ES-ES":"La velocidad de lanzamiento aumenta un (A).",
+                                "ZH-CN":"技能 施放速度提高(A)。"
+                            },
+                            "buff":[
+                                {
+                                    "type":"magiccasttimereduction",
+                                    "value":0.05
+                                }
+                            ],
+                            "reflectDamage":null
+                        },
+                        {
+                            "spellType":"passive",
+                            "uniqueName":"PASSIVE_REDUCED_ENERGYCOST",
+                            "uiAtlas":null,"uiSprite":"PASSIVE_CONCENTRATION_1",
+                            "revision":180330,
+                            "localizedNames":{
+                                "EN-US":"Efficiency",
+                                "DE-DE":"Effizienz",
+                                "KO-KR":"효율",
+                                "RU-RU":"Эффективность",
+                                "PL-PL":"Skuteczność",
+                                "PT-BR":"Eficiência",
+                                "FR-FR":"Efficacité",
+                                "ES-ES":"Eficiencia",
+                                "ZH-CN":"效率"
+                            },
+                            "localizedDescriptions":{
+                                "EN-US":"(A) reduced energy cost.",
+                                "DE-DE":"Um (A) verringerte Energiekosten.",
+                                "KO-KR":"에너지 소비량이 (A) 만큼 감소합니다.",
+                                "RU-RU":"Расход энергии снижается на (A).",
+                                "PL-PL":"Koszt energii zmniejszony o (A).","PT-BR":"Reduz em (A) o custo de energia.","FR-FR":"Coût en énergie réduit de (A).","ES-ES":"El coste de energía se reduce un (A).","ZH-CN":"能量耗费降低(A)。"},"buff":[{"type":"energycostreduction","value":0.06}],"reflectDamage":null}]},"localizedNames":{"EN-US":"Master's Scholar Sandals","DE-DE":"Gelehrtensandalen des Meisters","KO-KR":"마스터의 스콜라 샌들","RU-RU":"Сандалии ученого (мастер)","PL-PL":"Sandały Uczonego Mistrza","PT-BR":"Sandálias de Erudito do Mestre","FR-FR":"Sandales d'érudit du maître","ES-ES":"Sandalias de erudito del maestro","ZH-CN":"大师级学士便鞋"},"localizedDescriptions":{"EN-US":"Equipment Item","DE-DE":"Ausrüstungsgegenstand","KO-KR":"장비 아이템","RU-RU":"Снаряжение","PL-PL":"Przedmiot do wyposażenia","PT-BR":"Item de Equipamento","FR-FR":"Pièce d'équipement","ES-ES":"Objeto de equipo","ZH-CN":"装备物品"},"slotType":"shoes","physicalAttackDamageBonus":0.0,"skinCount":2,"physicalArmor":0,"magicResistance":0,"magicAttackDamageBonus":null,"activeSpellSlots":1,"passiveSpellSlots":1,"itemPowerProgressionType":"shoes","craftingRequirements":{"time":0.66667,"silver":0,"craftingFocus":1280,"craftResourceList":[{"uniqueName":"T6_CLOTH","count":8}]},"spriteName":"SHOES_CLOTH_LEVEL1","stackable":true,"equipable":true}
